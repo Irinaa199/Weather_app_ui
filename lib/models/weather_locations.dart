@@ -11,14 +11,14 @@ class WeatherLocation {
   final int humidity;
 
   WeatherLocation({
-    @required this.city,
-    @required this.dateTime,
-    @required this.temparature,
-    @required this.weatherType,
-    @required this.iconUrl,
-    @required this.wind,
-    @required this.rain,
-    @required this.humidity,
+    required this.city,
+    required this.dateTime,
+    required this.temparature,
+    required this.weatherType,
+    required this.iconUrl,
+    required this.wind,
+    required this.rain,
+    required this.humidity,
   });
 }
 
